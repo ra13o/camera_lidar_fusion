@@ -9,7 +9,7 @@ Custom PointCloud2 has PointField (x, y, z, rgba)
 To use this code with simulation or real sensors:
     1. Customise the pcl2pxl.py as per setup.
     2. In the fusion2pcl2.py adjust the topic names.
-    3. Dependency is only numpy and ROS sensor_msgs
+    3. Dependency are numpy, cv_bridge and ROS sensor_msgs
 
 My Setup:
     ROS Noetic
